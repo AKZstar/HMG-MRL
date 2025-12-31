@@ -81,7 +81,13 @@ Run the following notebook:
 jupyter notebook preprocess/preprocess_prog.ipynb
 
 Execute all cells to generate:
+- `data/bace.pickle` (feature dictionary)
+- `data/bace_remained_df.pickle` (cleaned dataset)
 
-data/bace.pickle (feature dictionary)
+### 2. Model Training
 
-data/bace_remained_df.pickle (cleaned dataset)
+Run the training script:
+
+```bash
+python run_main.py
+
