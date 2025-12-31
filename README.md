@@ -27,7 +27,7 @@ run_main.py: The main entry point of the project, responsible for the complete w
 
 ### 1. Data Preprocessing
 jupyter notebook preprocess/preprocess_prog.ipynb
-# Execute all cells to generate:
+### Execute all cells to generate:
 - data/bace.pickle (feature dictionary)
 - data/bace_remained_df.pickle (cleaned dataset)
 ### 2. Model Training
