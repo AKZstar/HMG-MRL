@@ -90,4 +90,11 @@ Run the training script:
 
 ```bash
 python run_main.py
+```
+Note: To switch datasets, modify the following fields in config.py:
+```bash
+task_name = 'bace'                    # Dataset name
+tasks = ['Class']                     # Task label column(s)
+data_raw_filename = "./data/bace.csv" # Data file path
+```
 
